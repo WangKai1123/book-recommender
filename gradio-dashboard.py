@@ -9,9 +9,9 @@ from langchain_chroma import Chroma
 
 import gradio as gr
 
+load_dotenv()
 
-
-
+books = pd.read_csv("books_with_emotions.csv")
 
 
 
